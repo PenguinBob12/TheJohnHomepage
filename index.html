@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        <div class="test-section">
+            <div class="test">
+                <p>Type "john" 10 times:</p>
+                <textarea id="test-10" placeholder="Type here..." rows="4" cols="50"></textarea>
+                <button onclick="startTest('test-10', 10)">Start Test</button>
+                <p id="result-10"></p>
+            </div>
+            <div class="test">
+                <p>Type "john" 5 times:</p>
+                <textarea id="test-5" placeholder="Type here..." rows="4" cols="50"></textarea>
+                <button onclick="startTest('test-5', 5)">Start Test</button>
+                <p id="result-5"></p>
+            </div>
+            <div class="test">
+                <p>Type "john" 1 time:</p>
+                <textarea id="test-1" placeholder="Type here..." rows="4" cols="50"></textarea>
+                <button onclick="startTest('test-1', 1)">Start Test</button>
+                <p id="result-1"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
